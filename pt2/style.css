@@ -1,0 +1,13 @@
+#babyJodaImg {
+    width: 35%;
+    height: 20%;
+    display: flex;
+    margin: 0 auto;
+    padding: 100px;
+
+}
+.container, .tooltip{
+    text-align: center;
+    color: green;
+    font-size: 26px;
+}

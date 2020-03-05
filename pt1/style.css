@@ -1,0 +1,42 @@
+﻿body {
+    background-image: url("vaporBackground.jpg");
+    
+}
+.flex-box-container-1, .flex-box-container-2, .flex-box-rps, .form {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.container-1, .container-2, .container-3, .container-4 {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center
+}
+h2, #flex-box-result {
+    padding-left: 10px;
+    font-family: "Lucida Console", Monaco, monospace;
+    word-spacing: 4px;
+    font-style: normal;
+    color: #b3ffd9;
+    font-size: 26px;
+    text-align: center;
+}
+.flex-box-container-2 img {
+    width: 100px;
+    height: 100px;
+    box-shadow: 16px 14px 5px 0px rgba(0,0,0,0.75);
+}
+.flex-box-rps img:hover {
+    box-shadow: -3px 10px 151px 54px rgba(255,0,0,1);
+}
+h1 {
+    padding-left: 10px;
+    font-family: "Lucida Console", Monaco, monospace;
+    word-spacing: 4px;
+    font-style: normal;
+    color: #b3ffd9;
+    font-size: 16px;
+    text-align: center;
+}
